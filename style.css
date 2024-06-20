@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+#topbar {
+    background-color: brown;
+    padding: 16px;
+    box-shadow: 0 5px 10px #aaa;
+    margin-bottom: 50px;
+}
+
+#logo {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.menu-item {
+    font-size: 24px;
+    margin-right: 16px;
+    float: right;
+    cursor: pointer;
+}
+
+.article1 {
+    padding: 18px;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 36px;
+    line-height: 1.4;
+    box-shadow: 0 5px 10px #aaa;
+}
+
+.article2 {
+    padding: 18px;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 36px;
+    line-height: 1.4;
+    box-shadow: 0 5px 10px #aaa;
+}
+
+.article3 {
+    padding: 18px;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 36px;
+    line-height: 1.4;
+    box-shadow: 0 5px 10px #aaa;
+}
+
+.article4 {
+    padding: 18px;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 36px;
+    line-height: 1.4;
+    box-shadow: 0 5px 10px #aaa;
+}
+
+.article5 {
+    padding: 18px;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 36px;
+    line-height: 1.4;
+    box-shadow: 0 5px 10px #aaa;
+}
+
+.article-wrapper {
+    padding: 0 15%;
+}
+
+.heading {
+    font-size: 36px;
+    text-align: center;
+}
+
+/* Selecting the first of paragraph of each article */
+.article1>p:first-of-type {
+    background-color: lightcoral;
+}
+
+/* Selecting the last of the paragraph of each article */
+.article2>p:last-of-type {
+    background-color: lightblue;
+}
+
+/* Selecting the second paragraph (nth paragraph) of each article because of the div element 3rd and 4th paragraph is highlighted div element part is skipped.*/
+.article3>p:nth-of-type(2) {
+    background-color: lightgray;
+}
+
+/* Selecting  the nth last of paragraph of each article down to up which paragraph  */
+.article4>p:nth-last-of-type(2) {
+    background-color: lightgreen;
+}
+
+/* Select all the paragraph which are the first child inside the article  */
+.article5>p:first-child {
+    background-color: lightsalmon;
+}
+
+/* Select all the paragraph which are the last child inside the article  */
+.article5>p:last-child {
+    background-color: lightsalmon;
+}
+
+/* Select all the paragraph which are the nth child inside the article  */
+.article5>p:nth-child(5) {
+    background-color: lightgreen;
+}
+
+/* Select all the paragraph which are the nth last child inside the article  */
+.article5>p:nth-last-child(2) {
+    background-color: lightpink;
+}
